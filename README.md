@@ -1,3 +1,5 @@
+![Anti-Social Squad](https://s3.us-east-2.amazonaws.com/toddbirchard-github/ass.jpg)
+
 # Anti Social Squad
 
 The Anti Social Squad is a revived web comic making a comeback.
