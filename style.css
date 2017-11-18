@@ -1,3 +1,57 @@
+body {
+  font-family: 'AvenirLTStd-Light';
+  color: white;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  background: black;
+  height: 120px;
+}
+
+.logo {
+  height: 79px;
+  width: 150px;
+  float: left;
+  background: url(https://s3.us-east-2.amazonaws.com/antisocialsquad/logo.png) no-repeat;
+  background-size: contain;
+  margin: 20px 0;
+}
+
+img {
+  margin-top: 50px;
+border: black solid 1px;
+}
+
+ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 0;
+  width: 70%;
+  float: right;
+  margin-right: 50px;
+  margin-top: 49px;
+}
+
+ul li {
+  display: inline-block;
+  color:white;
+  font-size: 24px;
+}
+
+a {
+  color:#fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 24px;
+}
+
 @media (max-width:1000px) {
    img {
      width: 100% !important;
