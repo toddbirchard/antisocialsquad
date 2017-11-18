@@ -21,6 +21,12 @@ nav {
   margin: 20px 0;
 }
 
+.links {
+  width: 1000px;
+  height: 100%;
+  margin: auto;
+}
+
 img {
   margin-top: 50px;
 border: black solid 1px;
@@ -35,7 +41,6 @@ ul {
   padding: 0;
   width: 70%;
   float: right;
-  margin-right: 50px;
   margin-top: 49px;
 }
 
@@ -52,15 +57,19 @@ a {
   font-size: 24px;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1005px) {
    img {
      width: 100% !important;
+   }
+
+   .links {
+     width:100%;
    }
 
    ul {
      margin-right: 30px;
      width: 60%;
-     margin-top: 57px;
+     margin-top: 49px;
    }
 
    ul li a {
@@ -82,11 +91,11 @@ a {
   ul {
     width: 60%;
     margin-right: 20px;
-    margin-top: 38px;
+    margin-top: 24px;
   }
 
   ul li a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   ul li:last-child {
