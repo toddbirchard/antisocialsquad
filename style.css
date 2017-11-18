@@ -56,4 +56,40 @@ a {
    img {
      width: 100% !important;
    }
+
+   ul {
+     margin-right: 30px;
+     width: 60%;
+     margin-top: 57px;
+   }
+
+   ul li a {
+     font-size: 16px;
+   }
+}
+
+
+@media (max-width:600px) {
+  .logo {
+    width:80px;
+    height: 40px;
+  }
+
+  nav {
+    height: 80px;
+  }
+
+  ul {
+    width: 60%;
+    margin-right: 20px;
+    margin-top: 38px;
+  }
+
+  ul li a {
+    font-size: 12px;
+  }
+
+  ul li:last-child {
+    display: none;
+  }
 }
