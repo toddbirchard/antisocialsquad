@@ -39,7 +39,7 @@ ul {
   justify-content: space-between;
   margin: auto 0;
   padding: 0;
-  width: 70%;
+  width: 50%;
   float: right;
   margin-top: 49px;
 }
@@ -54,7 +54,7 @@ a {
   color:#fff;
   text-transform: capitalize;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 @media (max-width:1005px) {
