@@ -2,13 +2,11 @@
 
 # Anti Social Squad
 
-The Anti Social Squad is a revived web comic making a comeback.
+The Anti Social Squad is a formally retired web comic making a comeback.
 
-Contains a single comic at the time of launch with no notable functionality.
+Contains a single comic at the time of launch with no notable functionality. Will be expanded to include 4 years of archives as well as new content.
 
 ## Future Updates
-- Implement CMS to handle multiple pages
-- Addition of 4 years of legacy content
-- New content
-- Functioning navigation
-- State-of-the-art metadata
+- Implement Wagtail CMS
+- Addition of legacy content
+- "About" and "bios" pages
