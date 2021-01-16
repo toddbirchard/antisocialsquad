@@ -1,24 +1,24 @@
 body {
-  font-family: 'AvenirLTStd-Light';
-  color: white;
-  text-transform: capitalize;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'AvenirLTStd-Light', 'Helvetica', sans-serif;
+  text-transform: capitalize;
 }
 
 nav {
   width: 100%;
-  background: black;
   height: 120px;
+  background: black;
 }
 
 .logo {
-  height: 79px;
   width: 150px;
-  float: left;
-  background: url(https://s3.us-east-2.amazonaws.com/antisocialsquad/logo.png) no-repeat;
-  background-size: contain;
+  height: 79px;
   margin: 20px 0;
+  float: left;
+  background: url(./img/logo.png) no-repeat;
+  background-size: contain;
 }
 
 .links {
@@ -27,21 +27,21 @@ nav {
   margin: auto;
 }
 
-img {
-  margin-top: 50px;
-border: black solid 1px;
+.comic {
+  margin-top: 50px auto;
+  border: black solid 1px;
 }
 
 ul {
-  display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
+  display: flex;
   justify-content: space-between;
-  margin: auto 0;
-  padding: 0;
   width: 50%;
-  float: right;
+  margin: auto 0;
   margin-top: 49px;
+  padding: 0;
+  float: right;
 }
 
 ul li {
@@ -52,13 +52,13 @@ ul li {
 
 a {
   color:#fff;
-  text-transform: capitalize;
-  text-decoration: none;
   font-size: 22px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 @media (max-width:1005px) {
-   img {
+   .comic {
      width: 100% !important;
    }
 
@@ -67,9 +67,9 @@ a {
    }
 
    ul {
-     margin-right: 30px;
      width: 60%;
      margin-top: 49px;
+     margin-right: 30px;
    }
 
    ul li a {
@@ -90,8 +90,8 @@ a {
 
   ul {
     width: 60%;
-    margin-right: 20px;
     margin-top: 24px;
+    margin-right: 20px;
   }
 
   ul li a {
